@@ -1,0 +1,30 @@
+.three-one {
+  background-color: #111827;
+  color: #fff;
+  border-radius: 0.25rem;
+}
+
+.three-one:hover {
+  color: #1f2937;
+  background-color: #fff;
+}
+
+.three-one:active {
+  color: #111827;
+  background-color: #f3f4f6;
+}
+
+.three-one:focus-within {
+  outline: 2px solid #111827;
+}
+
+/* cubic bezier functions */
+/* https://cubic-bezier.com/#.17,.67,.83,.67 */
+
+.one-two {
+  transition: color ease-in 150ms, background-color ease-in 150ms;
+}
+
+.three-two:focus .arrow-right {
+  animation: 200ms ease 150ms infinite alternate pulse;
+}
