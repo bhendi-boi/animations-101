@@ -1,4 +1,5 @@
 const openButton = document.querySelector(".open-button");
+const app = document.querySelector("#app");
 const left = document.querySelector(".left");
 const right = document.querySelector(".right");
 
@@ -9,10 +10,10 @@ openButton?.addEventListener("click", function () {
 });
 
 function removeButton() {
-  if (!openButton) {
+  if (!app) {
     return;
   }
-  openButton.style.display = "none";
+  app.style.display = "none";
 }
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
