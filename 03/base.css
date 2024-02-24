@@ -1,0 +1,35 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.section {
+  height: 100vh;
+}
+.four {
+  background-color: #a855f7;
+}
+
+.two {
+  background-color: #f43f5e;
+}
+.one {
+  background-color: #ec4899;
+}
+.three {
+  background-color: #d946ef;
+}
+
+.scroll-indicator {
+  background-color: #facc15;
+  height: 0.25rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  overflow-y: hidden;
+  transition: width cubic-bezier(0.59, 1.2, 0.93, 0.87);
+}
