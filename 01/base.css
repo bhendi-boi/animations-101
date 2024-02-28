@@ -132,11 +132,3 @@ body {
     transform: translateX(0.25rem);
   }
 }
-
-.three-two:hover .arrow-right {
-  animation: 200ms ease 150ms infinite alternate pulse;
-}
-
-.three-two:active .arrow-right {
-  animation: none;
-}
